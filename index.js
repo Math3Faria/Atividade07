@@ -18,7 +18,7 @@ if ((tipoCarro) == "P") {
 else if ((tipoCarro) == "L") {
     diasAlugado = parseInt(prompt("Quantos dias você ficou com o carro?: "));
     kmsPercorrido = parseFloat(prompt("Quantos kms você percorreu?: "));
-    if ((kmsPercorrido) <= 100) {
+    if ((kmsPercorrido) <= 200) {
         valorTotal = (150 * diasAlugado) + (0.2 * kmsPercorrido);
         alert(`O valor total a ser pago será de: ${valorTotal}`);
     } else {
