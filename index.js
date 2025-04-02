@@ -4,7 +4,7 @@ let valorTotal;
 let diasAlugado;
 
 tipoCarro = prompt("Se o seu carro for popular digite P, caso for de luxo digite L: ");
-if ((tipoCarro) == "P" || (tipoCarro) =="L") {
+if ((tipoCarro) == "P") {
     diasAlugado = parseInt(prompt("Quantos dias você ficou com o carro?: "));
     kmsPercorrido = parseFloat(prompt("Quantos kms você percorreu?: "));
     if ((kmsPercorrido) <= 100) {
